@@ -21,7 +21,7 @@ from model.dataset import PretrainDataset
 
 warnings.filterwarnings('ignore')
 
-
+#预训练
 def Logger(content):
     if not ddp or dist.get_rank() == 0:
         print(content)
